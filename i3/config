@@ -149,5 +149,5 @@ exec sh ~/.screenlayout/lg-acer.sh &
 exec flatpak run com.spotify.Client
 exec flatpak run org.telegram.desktop
 exec steam
-exec wallset -V ~/DiscoDuro/Videos/Cyberpunk.mp4
+exec --no-startup-id nitrogen --restore
 
